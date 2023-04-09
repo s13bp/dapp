@@ -1,0 +1,26 @@
+.mintzy {
+    display: flex;
+    font-family: 'Gugi', cursive;
+    background-image: url(./profile.jpg);
+    height: 100vh;
+    z-index: -8;
+    background-size: cover;
+    margin-top: -30px;
+    background-attachment: fixed;
+
+}
+.mintbtn {
+    position: relative;
+    padding: 10px;
+    font-size: 18px;
+    height: 40px;
+    border: none;
+    z-index: 800000;
+    background-color: rgb(255, 217, 0);
+
+}
+.pic{
+    height: 500px;
+    padding: 30px;
+    
+}

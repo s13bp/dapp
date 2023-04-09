@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+.identicon {
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.Login-button {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  padding: 10px;
+  font-size: 18px;
+ 
+  border: none;
+}
+.Profile {
+  display: flex;
+  font-family: 'Gugi', cursive;
+  background-image: url(./profile.jpg);
+  height:40vh;
+  background-size: cover;
+  margin-top: -30px;
+  background-attachment: fixed;
+
+}
+.Login-button:hover {
+  opacity: 0.9;
+}
+
+
+
+.Login-mm {
+  background-color: rgb(255, 125, 0);
+  font-family: 'Gugi', cursive;
+}
+.names {
+  position: absolute;
+  right: 120px;
+  top:0px;
+  padding: 10px;
+  font-size: 21px;
+  color: aliceblue;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  line-height: 55px;
+  width: 40vw;
+  text-transform: capitalize;
+  font-family: 'Gugi', cursive;
+}
+.edit {
+  right: 0;
+  position: absolute;
+  display: block;
+  font-size: 18px;
+  margin-top:20px;
+  width:250px;
+  color: aliceblue;
+  text-align: center;
+}
